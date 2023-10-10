@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import Menu from "./menu"
+import Menu from "./Menu"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react"

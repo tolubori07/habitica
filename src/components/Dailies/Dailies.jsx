@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import Dailyinput from "./Dailyinput"
-import Daily from "./daily"
+import Daily from "./Daily"
 
 const Dailies = ({dailies, onAdd, onDelete}) => {
   return (
