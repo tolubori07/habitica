@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-background-color: #2c2c2c;
+background-color: #141414;
 }
 .container{
     width: 100%;
@@ -45,7 +45,7 @@ position: absolute;
   }
   .open{
     height: auto;
-    transition: height 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
   .header{
@@ -89,4 +89,9 @@ position: absolute;
   overflow-x: hidden;
   overflow-y: hidden;
   word-wrap: none;
+}
+
+.no-todos{
+  width:30rem;
+  padding: 10%;
 }
